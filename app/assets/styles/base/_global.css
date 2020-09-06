@@ -1,0 +1,20 @@
+body {
+    --primary: 57, 151, 240;
+    --color: 44, 62, 80;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background: #f4f7f8;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+    color: rgb(var(--color));
+    font-family:Roboto,sans-serif;
+}
+* {
+    list-style: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
