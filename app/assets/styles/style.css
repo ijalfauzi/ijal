@@ -1,3 +1,4 @@
 @import 'normalize.css';
 @import 'base/_global';
-@import 'modules/_content';
+@import 'base/_fonts.css';
+@import 'modules/_content.css';
